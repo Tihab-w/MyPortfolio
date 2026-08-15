@@ -1,5 +1,5 @@
 // Dynamic role typing effect
-const roles = ["Software Developer", "Web Designer", "UI/UX Enthusiast", "Creative Coder", "Problem Solver"];
+const roles = ["Software Developer", "Web Designer", "Creative Coder", "Problem Solver"];
 let roleIndex = 0;
 let charIndex = 0;
 let isDeleting = false;

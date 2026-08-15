@@ -139,7 +139,7 @@ header {
 
 .nav-items {
     display: flex;
-    gap: 3.2rem;
+    gap:25px;
 }
 
 .nav-items a {
