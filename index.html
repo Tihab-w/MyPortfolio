@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
@@ -18,8 +18,15 @@
             <div class="logo">
                 <a href="#">Hable<span>.</span></a>
             </div>
-            <div class="mobile-menu" id="mobileMenuBtn">
-                <i class="fas fa-bars"></i>
+            <div class="header-actions">
+                <!-- DARK/LIGHT THEME TOGGLE -->
+                <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
+                    <i class="fas fa-sun"></i>
+                </button>
+                <!-- MOBILE MENU BUTTON -->
+                <div class="mobile-menu" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </div>
             </div>
             <nav>
                 <ul class="nav-items" id="navMenu">
@@ -37,7 +44,7 @@
 
     <main>
         <!-- Hero / Home Section -->
-        <section id="home" class="hero">
+        <section id="home" class="hero reveal">
             <div class="container hero-grid">
                 <div class="hero-content">
                     <div class="badge">✨ Software Engineering Student</div>
@@ -62,7 +69,7 @@
         </section>
 
         <!-- Services Section -->
-        <section id="service">
+        <section id="service" class="reveal">
             <div class="container">
                 <div class="section-title">
                     <h2>What <span>I Do</span></h2>
@@ -94,7 +101,7 @@
         </section>
 
         <!-- Skills Section -->
-        <section id="skill">
+        <section id="skill" class="reveal">
             <div class="container">
                 <div class="section-title">
                     <h2>Tech <span>Arsenal</span></h2>
@@ -117,7 +124,7 @@
         </section>
 
         <!-- Certificates Section -->
-        <section id="certificates">
+        <section id="certificates" class="reveal">
             <div class="container">
                 <div class="section-title">
                     <h2>My <span>Certificates</span></h2>
@@ -204,13 +211,12 @@
                             </a>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
 
         <!-- Projects Section -->
-        <section id="projects">
+        <section id="projects" class="reveal">
             <div class="container">
                 <div class="section-title">
                     <h2>Featured <span>Projects</span></h2>
@@ -380,7 +386,7 @@
         </section>
 
         <!-- Education Section -->
-        <section id="education">
+        <section id="education" class="reveal">
             <div class="container">
                 <div class="section-title">
                     <h2>Education <span>& Academics</span></h2>
@@ -398,7 +404,7 @@
         </section>
 
         <!-- Contact Section -->
-        <section id="contact">
+        <section id="contact" class="reveal">
             <div class="container">
                 <div class="section-title">
                     <h2>Get In <span>Touch</span></h2>
@@ -428,7 +434,6 @@
                         </div>
                     </div>
                     <div class="contact-form">
-                        <!-- Formspree form -->
                         <form id="contactForm" action="https://formspree.io/f/mjygndea" method="POST">
                             <div class="input-group">
                                 <input type="text" name="name" placeholder="Full Name" required>
